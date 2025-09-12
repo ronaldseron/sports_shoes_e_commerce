@@ -1,14 +1,15 @@
 import React from 'react'
-import heroShoe from '../assets/images/hero-shoe9.png'
+import heroShoe from '../assets/images/hero-shoe12.png'
 
 const Hero = () => {
   return (
     <section className=" w-full lg:min-h-[500px] h-[85dvh]">
         <div className='h-full flex items-center justify-center border bg-bg-primary border-gray-200 overflow-hidden'>
             <div className='w-1/2 p-16'>
-                <div className=' max-w-min text-white z-10'>
-                    <h1 className=" font-family-primary text-7xl text-balance max-w-2xl">STEP INTO PERFORMANCE</h1>
-                    <p className="text-xl mb-8">Find the perfect sports shoes for every athlete.</p>
+                <div className=' text-white z-10'>
+                    <h3 className="text-3xl font-family-primary tracking-wide mb-3">— Your Game Starts Here</h3>
+                    <h1 className=" font-family-primary text-7xl text-balance mb-2">UNLEASH YOUR POTENTIAL</h1>
+                    <p className="text-lg font-light mb-10">Discover the latest Nike sports shoes engineered for speed, comfort, and style. Elevate your game on and off the field.</p>
                     <a href="/shop" className="bg-white text-ft-primary px-6 py-3 border border-black/25">Shop Now</a>
                 </div>
             </div>
