@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className="h-[15dvh] bg-gray-50 text-primary px-8 flex flex-col justify-evenly z-50">
+        <nav className=" max-w-site mx-auto bg-gray-50 text-primary px-8 py-2 flex flex-col gap-2 z-50">
             <div className='flex justify-between items-center'>
                 <div className='flex items-center gap-8'>
                     <h1 className="text-xl font-bold">SportsShoes</h1>
@@ -15,12 +15,20 @@ const Navbar = () => {
                         <li><Link to="/contact">Contact</Link></li>
                     </ul>
                 </div>
-                <button className='border border-gray-200 w-9 h-9 grid place-content-center rounded-full'>
-                    <i className='bx  bx-user text-xl mb-0.5'  ></i> 
-                </button>
+                <div className=' flex items-center gap-5'>
+                    <a className='py-2 px-5 bg-black text-white text-lg'>
+                        Pick you shoes now
+                    </a>
+                    <button className='border border-gray-200 w-9 h-9 grid place-content-center rounded-full'>
+                        <i className='bx  bx-cart text-lg'  ></i> 
+                    </button>
+                    <button className='border border-gray-200 w-9 h-9 grid place-content-center rounded-full'>
+                        <i className='bx  bx-user text-lg mb-0.5'  ></i> 
+                    </button>
+                </div>
             </div>
-            <div className='flex justify-center items-center'>
-                <ul className="flex gap-8 text-[17px] font-light">
+            <div className='flex justify-center items-center py-3'>
+                <ul className="flex gap-8 font-light">
                     <li>
                         <Link to="/" className="flex items-center gap-1.5">
                         <i className="bx  bxs-basketball text-2xl"  ></i> 
