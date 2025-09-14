@@ -1,11 +1,11 @@
 import React from 'react'
 import { useEffect, useRef } from 'react';
-import heroShoe from '../assets/images/hero-shoe12.png'
+import heroShoe from '../assets/images/hero-shoe18.png'
 
 const Hero = () => {
     return (
-        <section className=" w-full max-w-site h-150">
-            <div className='h-full flex items-center justify-center border bg-bg-primary border-gray-200 overflow-hidden'>
+        <section className=" w-full max-w-site h-140">
+            <div className='h-full flex items-center justify-center bg-bg-primary overflow-hidden'>
                 <div className='w-1/2 p-16'>
                     <div className=' text-white z-10'>
                         <h3 className="text-2xl font-family-primary tracking-wide mb-2"
