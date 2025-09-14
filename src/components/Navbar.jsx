@@ -3,13 +3,13 @@ import { Link } from 'react-router-dom'
 
 const Navbar = () => {
     return (
-        <nav className=" max-w-site mx-auto bg-gray-50 text-primary px-8 py-2 flex flex-col gap-2 z-50">
+        <nav className=" max-w-site mx-auto bg-gray-50 text-primary px-8 py-4 flex flex-col gap-2 z-50">
             <div className='flex justify-between items-center'>
                 <div className='flex items-center gap-8'>
                     <h1 className="text-xl font-bold">SportsShoes</h1>
                     <ul className="flex gap-6 text-[17px]">
-                        <li><Link to="/">Home</Link></li>
-                        <li><Link to="/shop">Shop</Link></li>
+                        {/* <li><Link to="/">Home</Link></li> */}
+                        <li>Sports</li>
                         <li><Link to="/about">About</Link></li>
                         <li><Link to="/blog">Blog</Link></li>
                         <li><Link to="/contact">Contact</Link></li>
@@ -27,7 +27,7 @@ const Navbar = () => {
                     </button>
                 </div>
             </div>
-            <div className='flex justify-center items-center py-3'>
+            {/* <div className='flex justify-center items-START py-3'>
                 <ul className="flex gap-8 font-light">
                     <li>
                         <Link to="/" className="flex items-center gap-1.5">
@@ -65,14 +65,8 @@ const Navbar = () => {
                         Baseball
                         </Link>
                     </li>
-                    <li>
-                        <Link to="/contact" className="flex items-center gap-1.5">
-                        <i className='bx  bxs-golf-ball text-2xl'  ></i> 
-                        Golf
-                        </Link>
-                    </li>
                 </ul>
-            </div>
+            </div> */}
         </nav>
     )
 }
