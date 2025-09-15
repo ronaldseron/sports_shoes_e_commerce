@@ -1,13 +1,13 @@
 import React from 'react'
-import SpotlightShoe from '../assets/images/hero-shoe10.png'
+import SpotlightShoe from '../assets/images/spotlight-shoe.jpg'
 
 const Spotlight = () => {
   return (
     <section className="flex">
         <div className='w-1/2'>
-            <img src={SpotlightShoe} alt="SpotlightShoe" class="object-cover"/>
+            <img src={SpotlightShoe} alt="SpotlightShoe" class="h-full object-cover"/>
         </div>
-        <div className='w-1/2 flex flex-col justify-center bg-tertiary px-12'>
+        <div className='w-1/2 flex flex-col justify-center bg-tertiary p-12'>
             <h3 className="font-family-primary text-2xl mb-2">SHOE OF THE MONTH</h3>
             <h1 className='font-family-primary text-6xl text-balance tracking-wider mb-2'>WANT TO KNOW MORE ABOUT OUR SPOTLIGHT SHOE?</h1>
             <p> This month's featured model combines innovative design and superior comfort, making it the top choice for athletes and enthusiasts alike.</p>
