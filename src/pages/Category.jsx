@@ -3,7 +3,7 @@ import React from 'react'
 const Category = () => {
     return (
         <section className="flex flex-col gap-10 pb-15">
-            <h1 className="text-center font-family-primary text-6xl">Choose Your Sport</h1>
+            <h1 className="font-family-primary text-center text-6xl text-balance tracking-wider mb-2">CHOOSE YOUR SPORT</h1>
             <div className="grid grid-cols-3">
                 <div className="bg-gray-100 flex items-center justify-center py-15 gap-2">
                     <i className="bx  bxs-basketball text-5xl"  ></i> 
