@@ -4,7 +4,7 @@ import Category from './Category'
 import Spotlight from '../components/Spotlight'
 import Featured from '../components/Featured'
 import WhatSetsApart from '../components/WhatSetsApart'
-import Lifestyle from '../components/Lifestyle'
+import Membership from '../components/Membership'
 
 const Home = () => {
   return (
@@ -26,7 +26,7 @@ const Home = () => {
         <Spotlight />
         <Featured />
         <WhatSetsApart />
-        <Lifestyle />
+        <Membership />
     </>
   )
 }
