@@ -9,10 +9,15 @@ const Navbar = () => {
                     <h1 className="text-xl font-bold">SportsShoes</h1>
                     <ul className="flex gap-6 text-[17px]">
                         {/* <li><Link to="/">Home</Link></li> */}
-                        <li>Sports</li>
-                        <li><Link to="/about">About</Link></li>
-                        <li><Link to="/blog">Blog</Link></li>
-                        <li><Link to="/contact">Contact</Link></li>
+                        <li className="flex items-center gap-1">
+                            Sports
+                            <i className="bx  bx-caret-down text-xl"  ></i> 
+                        </li>
+                        <li>Help & Contact</li>
+                        <li className="flex items-center gap-1">
+                            About SportsShoes
+                            <i className="bx  bx-caret-down text-xl"  ></i> 
+                        </li>
                     </ul>
                 </div>
                 <div className=' flex items-center gap-5'>
