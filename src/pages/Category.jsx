@@ -2,7 +2,7 @@ import React from 'react'
 
 const Category = () => {
     return (
-        <section className="flex flex-col gap-10 pb-15">
+        <section className="flex flex-col gap-10 pt-34 pb-25">
             <h1 className="font-family-primary text-center text-6xl text-balance tracking-wider mb-2">CHOOSE YOUR SPORT</h1>
             <div className="grid grid-cols-3">
                 <div className="bg-gray-100 flex items-center justify-center py-15 gap-2">
