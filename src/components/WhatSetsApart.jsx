@@ -3,7 +3,7 @@ import featuresOfShoes from '../data/whatSetsApart'
 
 const WhatSetsApart = () => {
   return (
-    <section className=''>
+    <section className='pt-17 pb-5'>
         <div className="px-16 mb-6">
             <h3 className="font-family-primary text-2xl mb-2">WHAT SETS OUR SHOES APART</h3>
             <h1 className="font-family-primary text-6xl tracking-wider">DESIGNED FOR COMFORT, BUILT FOR PERFORMANCE</h1>

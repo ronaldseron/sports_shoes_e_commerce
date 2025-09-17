@@ -3,7 +3,7 @@ import FeaturedShoes from '../data/featuredShoes.js'
 
 const Featured = () => {
   return (
-    <section className=''>
+    <section className=' py-17'>
         <div className="px-16 mb-6">
             <h3 className="font-family-primary text-2xl mb-2">THIS SEASONS'S TOP PICKS</h3>
             <h1 className="font-family-primary text-6xl tracking-wider">DISCOVER TRENDING SPORTS GEAR PICKED BY TOP ATHLETES</h1>

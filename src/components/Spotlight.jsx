@@ -3,9 +3,9 @@ import SpotlightShoe from '../assets/images/spotlight-shoe.jpg'
 
 const Spotlight = () => {
   return (
-    <section className="flex">
+    <section className="flex py-17">
         <div className='w-1/2'>
-            <img src={SpotlightShoe} alt="SpotlightShoe" class="h-full object-cover"/>
+            <img src={SpotlightShoe} alt="SpotlightShoe" className="h-full object-cover"/>
         </div>
         <div className='w-1/2 flex flex-col justify-center bg-tertiary p-12'>
             <h3 className="font-family-primary text-2xl mb-2">SHOE OF THE MONTH</h3>
