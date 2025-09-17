@@ -5,7 +5,7 @@ const MainLayout = ({ children }) => {
   return (
     <>
         <Navbar />
-        <main className=" max-w-site mx-auto flex flex-col gap-30">
+        <main className=" max-w-site mx-auto flex flex-col">
             {children}
         </main>
         <Footer />
