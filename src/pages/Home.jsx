@@ -5,6 +5,7 @@ import Spotlight from '../components/Spotlight'
 import Featured from '../components/Featured'
 import WhatSetsApart from '../components/WhatSetsApart'
 import Membership from '../components/Membership'
+import SportNews from '../components/SportNews'
 
 const Home = () => {
   return (
@@ -27,6 +28,7 @@ const Home = () => {
         <Featured />
         <WhatSetsApart />
         <Membership />
+        <SportNews />
     </>
   )
 }
