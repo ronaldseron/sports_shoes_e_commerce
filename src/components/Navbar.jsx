@@ -32,7 +32,7 @@ const Navbar = () => {
                     </button>
                 </div>
             </div>
-            <div className='flex justify-center items-START py-3'>
+            {/* <div className='flex justify-center items-START py-3'>
                 <ul className="flex gap-8 font-light">
                     <li>
                         <Link to="/" className="flex items-center gap-1.5">
@@ -71,7 +71,7 @@ const Navbar = () => {
                         </Link>
                     </li>
                 </ul>
-            </div>
+            </div> */}
         </nav>
     )
 }
