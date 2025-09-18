@@ -8,24 +8,16 @@ const FeaturedShoes = [
         bgColor: "bg-[#7d7172]"
     },
     {
-        image: Feat3,
-        bgColor: "bg-[#f19a75]"
-    },
-    {
         image: Feat4,
         bgColor: "bg-[#6fa6ae]"
     },
     {
         image: Feat3,
         bgColor: "bg-[#f19a75]"
-    },
-    {
-        image: Feat4,
-        bgColor: "bg-[#6fa6ae]"
     },
     {
         image: Feat2,
-        bgColor: "bg-[#7d7172]"
+        bgColor: "bg-[#f19a75]"
     },
 ];
 
