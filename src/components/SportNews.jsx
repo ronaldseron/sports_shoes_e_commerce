@@ -7,7 +7,7 @@ const SportNews = () => {
             <div className=" p-16 ">
                 <h3 className="font-family-primary text-2xl mb-10">EXCITING SPORT NEWS $ UPDATES</h3>
                 {/* <h1 className='font-family-primary text-6xl text-balance tracking-wider mb-10'>STAY CONNECTED WITH THE LATEST IN YOUR FAVORITE SPORTS</h1> */}
-                <div className="grid grid-cols-3">
+                <div className="grid grid-cols-3 gap-y-10">
                     {newsSection.map((section, idx) => (
                         <nav key={idx} aria-label={section.title}>
                             <h4 className="font-family-primary text-lg mb-6">{section.title}</h4>
@@ -22,11 +22,11 @@ const SportNews = () => {
                     ))}
             </div>
 	    	</div>
-            <div className="w-full h-15 bg-ft-primary font-family-primary text-white flex items-center text-2xl overflow-hidden relative">
+            <div className="w-full h-13 bg-ft-primary font-family-primary text-white flex items-center text-xl overflow-hidden relative">
                 <div className=" whitespace-nowrap flex px-4">
-                <span>
-                    STEP UP // CHUCHU // BLABAL // NYEHEHE // WHAT // STEP UP // CHUCHU // BLABLA // NYEHEHE // WHAT // STEP UP // 
-                </span>
+                    <h1>
+                    SPORTS <span className="text-yellow-300 mx-15">//</span> SPORTS <span className="text-yellow-300 mx-15">//</span> SPORTS <span className="text-yellow-300 mx-15">//</span> SPORTS <span className="text-yellow-300 mx-15">//</span> SPORTS <span className="text-yellow-300 mx-15">//</span> SPORTS <span className="text-yellow-300 mx-15">//</span> SPORTS
+                    </h1>
                 </div>
             </div>
 	    </section>
