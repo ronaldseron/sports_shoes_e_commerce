@@ -1,4 +1,13 @@
-const footerSection = [
+import Paypal from "../assets/images/paymentLogo/paypal.svg"
+import Gcash from "../assets/images/paymentLogo/gcash.svg"
+import Visa from "../assets/images/paymentLogo/visa.svg"
+import MasterCard from "../assets/images/paymentLogo/mastercard.svg"
+
+import Facebook from "../assets/images/socialMedia/facebook.svg"
+import Instagram from "../assets/images/socialMedia/instagram.svg"
+import Linkedin from "../assets/images/socialMedia/linkedin.svg"
+
+export const footerSection = [
 	{
 		title: "SHOP BY SPORT",
 		links: [
@@ -25,4 +34,46 @@ const footerSection = [
 	}
 ];
 
-export default footerSection;
+export const paymentOptions = [
+	{
+		title: "PAYMENT OPTIONS",
+		links:[
+			{
+				name: "Gcash",
+				image: Gcash
+			},
+			{
+				name: "Visa",
+				image: Visa
+			},
+			{
+				name: "MasterCard",
+				image: MasterCard
+			},
+			{
+				name: "Paypal",
+				image: Paypal
+			},
+		]
+	}
+];
+
+export const socialMedia = [
+	{
+		title: "SOCIAL MEDIA",
+		links: [
+			{
+				name: "Facebook",
+				image: Facebook
+			},
+			{
+				name: "Instagran",
+				image: Instagram
+			},
+			{
+				name: "Linkedin",
+				image: Linkedin
+			}
+		]
+	}
+];
