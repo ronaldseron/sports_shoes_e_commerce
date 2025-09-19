@@ -11,16 +11,16 @@ const Featured = () => {
         <div className="grid grid-cols-4 px-8 gap-8">
             {FeaturedShoes.map((shoe, idx) => (
                 <div key={idx} className={` flex flex-col`}>
-                    <div className=" flex items-center p-8 bg-gradient-to-r from-gray-200 via-gray-50 to-gray-200">
-                        <img src={shoe.image} alt={`shoe-${idx}`} />
+                    <div className="h-70 flex items-center justify-center bg-gradient-to-r from-gray-200 via-gray-50 to-gray-200">
+                        <img src={shoe.image} alt={`shoe-${idx}`} className="w-50"/>
                     </div>
                     <div className="px-2 py-4 rounded-t-2xl">
-                        <h1 className="text-2xl font-semibold mb-4">Air Glide Pro</h1>
-                        <p className="opacity-70">Bounce Higher, land softer. Dominatethe court with responsive cushioning.</p>
+                        <h1 className="text-2xl font-semibold mb-4">{shoe.title}</h1>
+                        <p className="opacity-70">{shoe.desc}</p>
                         <div className="flex items-center justify-between mt-8">
                             <div>
                                 <h5 className="text-xs font-semibold">PRICE</h5>
-                                <h1 className="text-lg font-bold">1000</h1>
+                                <h1 className="text-lg font-bold">{shoe.price}</h1>
                             </div>
                             <button className="px-6 py-3 font-semibold bg-gray-100 rounded-lg">Add to cart</button>    
                         </div>
