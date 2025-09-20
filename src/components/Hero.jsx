@@ -8,12 +8,9 @@ const Hero = () => {
             <div className='h-full flex items-center justify-center bg-bg-primary overflow-hidden'>
                 <div className='w-1/2 p-16'>
                     <div className=' text-white z-10'>
-                        <h3 className="text-2xl font-family-primary tracking-wide mb-2"
-                        style={{ fontSize: 'clamp(0.7rem, 1.8vw, 1.5rem)' }}>— Your Game Starts Here</h3>
-                        <h1 className=" font-family-primary text-7xl tracking-wide text-balance mb-1"
-                        style={{ fontSize: 'clamp(2.5rem, 6vw, 5rem)' }}>UNLEASH POTENTIAL</h1>
-                        <p className="text-lg font-light mb-10"
-                        style={{ fontSize: 'clamp(12px, 1.3vw, 18px)' }}>Discover the latest Nike sports shoes engineered for speed, comfort, and style. Elevate your game on and off the field.</p>
+                        <h3 className="text-2xl font-family-primary tracking-wide mb-2 sub-clamp ">Your Game Starts Here</h3>
+                        <h1 className=" font-family-primary text-7xl tracking-wide text-balance mb-1 head-clamp">UNLEASH POTENTIAL</h1>
+                        <p className="text-lg font-light mb-10 desc-clamp">Discover the latest sport shoes engineered for speed, comfort, and style. Elevate your game on and off the field.</p>
                         <div>
                             <a href="/shop" className="py-2 px-5 bg-white text-ft-primary text-lg border border-black/70 mr-2">To check latest arrivals</a>
                             <a href="/shop" className="py-2 px-5 text-white text-lg underline">Trending shoes for each sport</a>
@@ -24,7 +21,7 @@ const Hero = () => {
                     <div className='relative w-full h-full z-10 backdrop-blur-3xl grid place-content-center'>
                         <img 
                             src={heroShoe} 
-                            alt="Hero Page" 
+                            alt="Latest sport shoes for speed, comfort, and style" 
                             className=" object-cover "
                         />
                     </div>

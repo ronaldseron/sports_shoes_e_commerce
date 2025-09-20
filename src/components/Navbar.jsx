@@ -1,15 +1,20 @@
 import { useState } from 'react'
 import { Link } from 'react-router-dom'
+import Logo from '../assets/images/Logo.png'
+import gb from '../assets/images/gb.svg'
 import dropDownContent from '../data/dropDownContent.js'
 
 const Navbar = () => {
     const [showDropdown, setShowDropdown] = useState(null);
 
     return (
-        <nav className="relative h-19 max-w-site mx-auto bg-gray-50 text-primary px-8 flex flex-col gap-2 z-50">
+        <nav className="relative h-19 max-w-site mx-auto bg-gray-50 text-primary px-8 flex flex-col gap-2 z-50" aria-label="Main navigation">
             <div className='h-full flex justify-between items-center'>
-                <div className='h-full flex items-center gap-8'>
-                    <h1 className="text-xl font-bold">SportsShoes</h1>
+                <div className='h-full flex items-center gap-6'>
+                    <div className='flex items-center'>
+                        <img src={Logo} alt="Sport Shoes Logo" className="w-15"/>
+                        {/* <h1 className="text-xl font-bold">SportsShoes</h1> */}
+                    </div>
                     <ul className=" h-full flex text-[17px]">
                         {/* <li><Link to="/">Home</Link></li> */}
                         <li className="flex items-center gap-1 px-3 cursor-pointer border-b-2 hover:border-black border-gray-50"
@@ -43,6 +48,11 @@ const Navbar = () => {
                     <a className='py-2 px-5 bg-black text-white text-lg'>
                         Pick you shoes now
                     </a>
+                    <button className='w-9 h-9 grid place-content-center border border-gray-200 rounded-full'>
+                        <div className=" w-6.5 h-6.5">
+                            <img src={gb} alt="United Kingdom Flag" className="object-cover w-full h-full rounded-full"/>
+                        </div>
+                    </button>
                     <button className='border border-gray-200 w-9 h-9 grid place-content-center rounded-full'>
                         <i className='bx  bx-cart text-lg'  ></i> 
                     </button>
@@ -63,7 +73,7 @@ const Navbar = () => {
                                 <ul className="flex flex-col gap-2">
                                     {item.links.map((link, linkIdx) => (
                                         <li key={linkIdx} className="text-lg font-light">
-                                            <Link to={link.to} className="hover:underline">
+                                            <Link to={link.to} className="hover:underline" title={link.name}>
                                                 {link.name}
                                             </Link>
                                         </li>
@@ -83,7 +93,7 @@ const Navbar = () => {
                         {dropDownContent.About.map((item, idx) => (
                             <div key={idx} className="mb-24">
                                 <h4 className="font-family-primary text-lg mb-4">{item.title}</h4>
-                                <Link to={item.link.to} className="text-lg font-light">
+                                <Link to={item.link.to} className="text-lg font-light" title={item.link.name}>
                                     {item.link.name}
                                 </Link>
                             </div>

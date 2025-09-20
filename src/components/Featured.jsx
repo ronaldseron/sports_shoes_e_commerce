@@ -31,11 +31,11 @@ const Featured = () => {
         <div className="bg-tertiary py-34 flex items-center mt-34">
             <div className="px-16 mb-6">
                 <h3 className="font-family-primary text-2xl mb-2">WHAT OUR CUSTOMERS SAY</h3>
-                <h1 className="font-family-primary text-6xl tracking-wider">"DISCOVER TRENDING SPORTS GEAR PICKED BY TOP ATHLETES"</h1>
+                <h1 className="font-family-primary text-6xl tracking-wider">"AMAZING COMFORT AND STYLE-MY GO-TO SPORT SHOES FOR EVERY GAME!"</h1>
                 <div className="flex items-center gap-2 mt-4">
-                    <div className="w-12 h-12 grid place-content-center bg-black text-white rounded-full">U</div>
+                    <div className="w-12 h-12 grid place-content-center bg-black text-white rounded-full">A</div>
                     <div>
-                        <h1 className="font-semibold">Ronald Seron</h1>
+                        <h1 className="font-semibold">April Dalida</h1>
                         <h3>SS satisfied customer</h3>
                     </div>
                 </div>
