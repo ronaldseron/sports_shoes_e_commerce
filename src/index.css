@@ -36,3 +36,14 @@
     transform: translateX(-50%);
   }
 }
+
+/* CLAMP */
+.head-clamp {
+  font-size: clamp(2.5rem, 6vw, 5rem);
+}
+.sub-clamp {
+  font-size: clamp(0.7rem, 1.8vw, 1.5rem);
+}
+.desc-clamp {
+  font-size: clamp(12px, 1.3vw, 18px);
+}
